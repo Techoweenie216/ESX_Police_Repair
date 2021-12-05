@@ -50,7 +50,7 @@ Citizen.CreateThread(function()
 		-- if you are in the marker, do stuff
 		if isInMarker and not HasAlreadyGotMessage then
 				yourJob = ESX.PlayerData.job.name
-				print (yourJob)	
+				
 			-- check to see if your job is police, sheriff or highway patrol
 			if yourJob == "police" or yourJob == "sheriff" or yourJob == "highway" then
 			
